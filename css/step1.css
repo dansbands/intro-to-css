@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.header {
+  background-color: orange;
+}
+
+.container {
+}
+
+.menu {
+  background-color: lightblue;
+}
+
+.main {
+  background-color: yellow;
+}
+
+.footer {
+  background-color: violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1  {
+  /* text-align: center; */
+}
+
+.bottom-nav {
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
