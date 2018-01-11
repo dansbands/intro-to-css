@@ -1,77 +1,40 @@
-
 body {
   margin: 0;
   font-family: arial;
 }
 
-h1  {
-  text-align: center;
-}
-
-.bottom-nav {
-  height: 30px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  background-color: white;
-  padding-top: 10px;
-  z-index: 1
-}
-
-.bottom-nav a {
-  text-decoration: none;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-
 .header {
   background-color: orange;
-  padding: 20px;
-  height: 60px;
+  height: 100px;
   position: fixed;
   top: 0;
-  left: 0;
   right: 0;
+  left: 0;
 }
 
 .container {
   margin-top: 100px;
-  margin-bottom: 30px;
-  overflow: scroll;
-  margin-left: 0px;
-  left: 0;
-  right: 0;
-  width: 100%;
 }
 
 .menu {
   background-color: lightblue;
-  padding: 2%;
-  height: 800px;
+  height: 1000px;
+  width: 25%;
   float: left;
-  left: 0;
-  width: 20%;
-  display: inline-block;
 }
 
 .main {
   background-color: yellow;
-  padding: 2%;
-  height: 800px;
-  width: 72%;
+  height: 1000px;
+  width: 75%;
   float: right;
-  display: inline-block;
 }
 
 .footer {
   background-color: violet;
-  padding: 20px;
-  position: fixed;
   height: 100px;
-  bottom: 30px;
-  left: 0;
+  position: fixed;
+  bottom: 0;
   right: 0;
+  left: 0;
 }

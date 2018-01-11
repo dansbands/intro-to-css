@@ -1,6 +1,14 @@
 body {
-  margin: 0;
   font-family: arial;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2, p {
+  margin-left: 20px;
 }
 
 .header {
@@ -13,14 +21,21 @@ body {
 }
 
 .container {
+  margin-top: 100px;
 }
 
 .menu {
   background-color: lightblue;
+  height: 1000px;
+  width: 25%;
+  float: left;
 }
 
 .main {
   background-color: yellow;
+  height: 1000px;
+  width: 75%;
+  float: right;
 }
 
 .footer {
